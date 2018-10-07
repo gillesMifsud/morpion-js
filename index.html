@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>JS Morpion</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="https://bootswatch.com/superhero/bootstrap.min.css">
+
+</head>
+
+<body onload="startGame()">
+
+<div class="container">
+
+    <div id="message">Messages here...</div>
+
+    <div class="center-block">
+        <table>
+            <tr>
+                <td id="s1" class="square" onclick="nextMove(this);"></td>
+                <td id="s2" class="square" onclick="nextMove(this);"></td>
+                <td id="s3" class="square" onclick="nextMove(this);"></td>
+            </tr>
+            <tr>
+                <td id="s4" class="square" onclick="nextMove(this);"></td>
+                <td id="s5" class="square" onclick="nextMove(this);"></td>
+                <td id="s6" class="square" onclick="nextMove(this);"></td>
+            </tr>
+            <tr>
+                <td id="s7" class="square" onclick="nextMove(this);"></td>
+                <td id="s8" class="square" onclick="nextMove(this);"></td>
+                <td id="s9" class="square" onclick="nextMove(this);"></td>
+            </tr>
+        </table>
+    </div>
+    <button class="btn btn-primary" onclick="startGame()">Restart</button>
+</div>
+
+<script src="game.js"></script>
+</body>
+</html>

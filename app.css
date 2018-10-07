@@ -1,0 +1,16 @@
+.square{
+    background-color: aqua;
+    color: black;
+    border: 1px solid gray;
+
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.square:hover{
+    cursor: pointer;
+}
